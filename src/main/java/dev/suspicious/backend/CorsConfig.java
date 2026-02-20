@@ -12,7 +12,8 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                         "http://localhost:8080",
                         "http://localhost:8081",
-                        "https://spring-boot-algorand.onrender.com"
+                        "https://spring-boot-algorand.onrender.com",
+                        "https://gene-harmony.onrender.com/"
                 )
                 .allowedMethods("GET", "POST", "OPTIONS")
                 .allowedHeaders("*")
