@@ -15,9 +15,9 @@ public class CorsConfig implements WebMvcConfigurer {
                         "https://spring-boot-algorand.onrender.com",
                         "https://gene-harmony.onrender.com/",
                         "http://10.16.202.37:8081",
-                        "192.168.137.1:8081",
+                        "http://192.168.137.1:8081",
                         "http://10.16.202.37:8080",
-                        "192.168.137.1:8080"
+                        "http://192.168.137.1:8080"
                 )
                 .allowedMethods("GET", "POST", "OPTIONS")
                 .allowedHeaders("*")
